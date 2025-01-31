@@ -1,11 +1,12 @@
-// import 
+import AirflowApp from "./components/Main";
 
 export default function Home() {
   return (
     <>
-      <main className=''>
+      {/* <main className=''>
 
-      </main>    
+      </main>     */}
+      <AirflowApp />
     </>
   );
 }
