@@ -1,4 +1,3 @@
-/* FloorSchematic.js */
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import AddWall from "./AddWall";
@@ -74,6 +73,9 @@ export default function FloorSchematic() {
           </>
         ))}
       </div>
+      <p>
+        coordinate: {walls.size > 0 ? JSON.stringify([...walls]) : 'select a coordinate'}
+      </p>
     </div>
   );
 };
