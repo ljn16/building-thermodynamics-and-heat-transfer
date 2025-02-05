@@ -54,7 +54,6 @@ export default function FloorSchematic() {
       </Card>
 
       <div className="mt-4 grid" style={{ gridTemplateColumns: `20px repeat(${width}, 20px)` }}>
-        <div></div>
         {[...Array(width)].map((_, x) => (
           <div key={`col-${x}`} className="text-center text-xs">{x}</div>
         ))}

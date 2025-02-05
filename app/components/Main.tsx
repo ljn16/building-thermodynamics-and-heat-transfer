@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Heatmap } from "@/components/Heatmap";
 
 import FloorSchematic from "@/components/FloorSchematic";
+import TempPicker from "./TempPicker";
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -58,6 +59,7 @@ export default function Main() {
         </Button>
       </div>
       <FloorSchematic />
+      <TempPicker />
     </div>
   );
 }
